@@ -17,6 +17,11 @@ const yTooltipOffset = 15;
 
 
 // TODO: What does this code do? 
+// chooses the svg with the id hard coded bar
+// add an svg to the div with that id
+// sets the width attribute
+// sets the height atribute
+// sets the viewbox to be from (0,0) to the width and height
 const svg1 = d3
   .select("#hard-coded-bar")
   .append("svg")
@@ -42,9 +47,11 @@ const data1 = [
 */ 
 
 // TODO: What does this code do? 
+// sets the max Y to be the largest bar
 let maxY1 = d3.max(data1, function(d) { return d.score; });
 
-// TODO: What does each line of this code do?   
+// TODO: What does each line of this code do?
+// scales the other attributes based on the max
 let yScale1 = d3.scaleLinear()
             .domain([0,maxY1])
             .range([height-margin.bottom,margin.top]); 
