@@ -1,7 +1,7 @@
 # ic-07
 ic-07 - Intro to D3
 
-Link to GitHub Pages: * [ic-07 webpage](https://github.com/DS4200-S22/ic-07-bzwyant)
+Link to GitHub Pages: * [ic-07 webpage](https://ds4200-s22.github.io/ic-07-bzwyant/)
 
 ## Purpose
 
